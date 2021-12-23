@@ -16,3 +16,11 @@ def binary_search(array, right, target)
   end
   return -1 
 end
+
+# map挙動確認
+
+a = gets.split(" ")
+a = a.map { |b| b * 3}
+a.each do |x|
+  puts x
+end
