@@ -24,3 +24,22 @@ a = a.map { |b| b * 3}
 a.each do |x|
   puts x
 end
+
+# 選択式コード
+
+while true
+  puts 'ボタンを選択してください'
+  puts '[1]'
+  puts '[2]'
+  puts '[3]'
+  input = gets.to_i
+  if input == 1
+    
+  elsif input == 2
+    
+  elsif input == 3
+    exit
+  else
+    puts '無効な値です'
+  end
+end
